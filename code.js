@@ -1,0 +1,1 @@
+function modify(n){return n.replace(/ /g,"_")}var i=0,name=modify("_I LOVE DORAEMON"),x=0;$(function(){n=color.length,setInterval(function(){if(i<n){x==name.length&&(x=0);var o="<font style='background-color:#000;color:#"+color[i]+"'>"+name[x]+"</font>";i%60==0?o+=" ":o=o,$("body").append(o),i==n-1&&(alert("Just Kidding!"),alert("😊")),x++,i++}},1)});
